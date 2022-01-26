@@ -1,0 +1,45 @@
+.carousel-img {
+    width: 85vw;
+    height: 100vh;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .carousel-img{
+        width: 100vw;
+        height: 92vh
+    }
+    .carousel-item .carousel-caption {
+        color: white;
+        background: rgba(20, 19, 19, 50%);
+        right: 0;
+        left: 0;
+        bottom: 0;
+        padding: 0 50px 50px 50px;
+
+    }
+    .carousel-btn {
+        height: 68vh;
+
+    }
+ 
+    .carousel-caption .hero-btn{
+        background-color: rgb(225, 225, 225,100%);
+        margin-bottom: 50px;
+        opacity: 0.6;
+        padding:5px 20px 5px 20px;
+        font-size: 1.2;
+        font-weight: 500;
+       
+    }
+    .hero-btn:hover{
+        opacity: 1;
+    }
+    .hero-text{
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 2rem;
+        
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,114 @@
+.brand {
+    color: white;
+    margin: 60px auto;
+    font-size: 5rem;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.navbar {
+    width: 15vmax;
+    height: 100vh;
+    background-color: #0B0808;
+}
+
+.navbar .container-fluid {
+    max-height: 50vh;
+    width: 100vw;
+}
+
+.container-fluid .navbar-nav {
+    margin-bottom: 49em;
+}
+
+.navbar-nav .nav-items .nav-item:hover {
+
+    background-color: white;
+    color: black;
+}
+
+.navbar-nav .nav-items .nav-item {
+    padding-right: 90px;
+    border-radius: 0;
+    color: white;
+    font-size: 1.7rem;
+    margin-left: 2px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    width: 90%;
+}
+
+.icons {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+.icons:hover {
+    color: white;
+    opacity: 1;
+}
+
+.social {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar {
+        width: 100vw;
+        height: 10vh;
+        padding-top: 0;
+        z-index: 4;
+
+    }
+
+    .navbar .container-fluid {
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar .brand {
+
+        margin: 0 auto;
+        font-size: 2em;
+
+
+    }
+
+    .container-fluid .navbar-toggler {
+        padding: 0;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .navbar-collapse {
+        background-color: #0B0808;
+    }
+
+    .nav-items {
+        width: 100vw;
+        
+
+    }
+
+    .navbar-collapse .navbar-nav .nav-items .btn {
+        margin: 20px auto;
+        width: 100vw;
+        padding: 10px 0 10px 0;
+
+    }
+
+    .container-fluid .navbar-nav {
+        margin: 0;
+    }
+
+    .menu {
+        padding: 0px;
+    }
+    .container-fluid .navbar-nav .nav-items .nav-item  {
+        padding-left: 20px;
+    }
+}
