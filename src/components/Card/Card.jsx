@@ -1,17 +1,17 @@
 import React from "react";
 import "./Card.css";
+import { motion } from "framer-motion";
 
-function Card() {
+function Card({ url, selected }) {
   return (
-    <div>
-      <div className="card">
-        <img
-          src="./assets/images/one.jpg"
-          className="card-img-top card-img"
-        ></img>
-        <div className="middle"></div>
-      </div>
-    </div>
+    <motion.div
+      className="card"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 1 }}
+    >
+      <img src={url} className="card-img-top card-img"></img>
+    </motion.div>
   );
 }
 

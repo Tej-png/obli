@@ -1,10 +1,28 @@
 .form {
     width: 40vw;
     margin: 10px auto;
+
+  }
+  .form-label {
+    text-align: left;
+    display: block;
+  }
+  .form-control {
+    width: 40vw;
+    margin: 10px auto;
+  }
+
+  .form-btn {
+    display: block;
+    text-align: left;
   }
 
   @media screen and (max-width: 1200px) {
     .form {
+        width: 60vw;
+        margin: 10px auto;
+      }
+      .form-control {
         width: 60vw;
         margin: 10px auto;
       }

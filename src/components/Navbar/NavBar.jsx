@@ -5,7 +5,7 @@ import "./Navbar.css";
 function NavBar({ width }) {
   return (
     <nav className="navbar sticky-top">
-      <Link to="/" className="brand" style={{ textDecoration: "none" }}>
+      <Link to="/" className="brand">
         <h1 className="brand">Obli</h1>
       </Link>
       <div className="container-fluid" style={{ padding: "0" }}>
@@ -21,7 +21,7 @@ function NavBar({ width }) {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <i class="fas fa-bars menu"></i>
+              <i className="fas fa-bars menu"></i>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav">
@@ -29,15 +29,15 @@ function NavBar({ width }) {
                   <Link
                     to="/"
                     className="nav-btns"
-                    style={{ textDecoration: "none" }}
+                   
                   >
                     <button className="btn nav-link nav-item">Home</button>
                   </Link>
-                  <Link to="/artworks" style={{ textDecoration: "none" }}>
+                  <Link to="/artworks" >
                     <button className="btn nav-link nav-item">Artworks</button>
                   </Link>
 
-                  <Link to="/contact" style={{ textDecoration: "none" }}>
+                  <Link to="/contact" >
                     <button className="btn nav-link nav-item">Contact</button>
                   </Link>
                 </div>
@@ -48,14 +48,14 @@ function NavBar({ width }) {
           <>
             <div className="navbar-nav">
               <div className="nav-items">
-                <Link to="/" style={{ textDecoration: "none" }}>
+                <Link to="/" >
                   <button className="btn nav-link nav-item">Home</button>
                 </Link>
-                <Link to="/artworks" style={{ textDecoration: "none" }}>
+                <Link to="/artworks">
                   <button className="btn nav-link nav-item">Artworks</button>
                 </Link>
 
-                <Link to="/contact" style={{ textDecoration: "none" }}>
+                <Link to="/contact">
                   <button className="btn nav-link nav-item">Contact</button>
                 </Link>
               </div>
@@ -67,10 +67,10 @@ function NavBar({ width }) {
         <div className="social">
           <a
             href="https://www.instagram.com/obli.png/"
-            class="fab fa-instagram icons"
+            className="fab fa-instagram icons"
           ></a>
-          <a href="https://www.facebook.com/" class="fab fa-facebook icons"></a>
-          <a href="https://www.patreon.com/" class="fab fa-patreon icons"></a>
+          <a href="https://www.facebook.com/" className="fab fa-facebook icons"></a>
+          <a href="https://www.patreon.com/" className="fab fa-patreon icons"></a>
         </div>
       )}
     </nav>

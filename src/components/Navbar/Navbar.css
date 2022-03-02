@@ -3,21 +3,27 @@
     margin: 60px auto;
     font-size: 5rem;
     font-family: 'Reenie Beanie', cursive;
+    display: inline-block;
 }
 
 .navbar {
-    width: 15vmax;
+    width: 15vw;
     height: 100vh;
     background-color: #0B0808;
+   
+}
+.navbar .nav-link {
+    display: inline-block;
 }
 
 .navbar .container-fluid {
     max-height: 50vh;
     width: 100vw;
+  
 }
 
 .container-fluid .navbar-nav {
-    margin-bottom: 49em;
+    margin-bottom: 49rem;
 }
 
 .navbar-nav .nav-items .nav-item:hover {

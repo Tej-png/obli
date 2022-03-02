@@ -10,15 +10,9 @@ function Contact({ width }) {
       <div className="contact-content">
         <h1 className="gallery-header">Contact</h1>
         <div className="contact-forms">
-          <Form for="name" type="text" name="Your name"></Form>
-          <Form for="email" type="email" name="Email*"></Form>
-          <Form for="subject" type="text" name="Subject"></Form>
-          <div>
-            <label for="msg" className="form-label">
-              Message
-            </label>
-            <textarea class="form-control" id="msg" rows="3"></textarea>
-          </div>
+       <Form></Form>
+          
+          
         </div>
         {width < 1200 && (
           <div className="social-contact">
