@@ -56,6 +56,7 @@ function NavBar({ width }) {
                 </Link>
 
                 <Link to="/contact">
+                
                   <button className="btn nav-link nav-item">Contact</button>
                 </Link>
               </div>
