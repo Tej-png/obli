@@ -28,7 +28,12 @@ function Gallery({ width, selected, setSelected }) {
                 className="col-xl-4 col-lg-4 col-md-6 col-sm-12"
                 onClick={() => setSelected(card.url)}
               >
-                <Card selected={selected} url={card.url}></Card>
+               
+               
+                    <Card for="flexCheckDefault" selected={selected} url={card.url}></Card>
+                 
+              
+              
               </motion.div>
             ))}
           </motion.div>
@@ -41,7 +46,12 @@ function Gallery({ width, selected, setSelected }) {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <motion.img src={selected} initial={{y:'-1000px'}} animate={{ y:0}} transition={{ delay:0.2}}></motion.img>
+            <motion.img
+              src={selected}
+              initial={{ y: "-1000px" }}
+              animate={{ y: 0 }}
+              transition={{ delay: 0.2 }}
+            ></motion.img>
           </motion.div>
         )}
       </div>

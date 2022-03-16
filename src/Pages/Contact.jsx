@@ -12,9 +12,7 @@ function Contact({ width }) {
         <div className="contact-forms">
        <Form></Form>
           
-          
-        </div>
-        {width < 1200 && (
+       {width < 1200 && (
           <div className="social-contact">
             <a
               href="https://www.instagram.com/obli.png/"
@@ -27,6 +25,8 @@ function Contact({ width }) {
             <a href="https://www.patreon.com/" className="fab fa-patreon icons"></a>
           </div>
         )}
+        </div>
+        
       </div>
     </div>
   );

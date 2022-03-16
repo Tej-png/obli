@@ -9,6 +9,7 @@ import { projectFireStore } from "../firebase/config";
 const Upload = ({ width }) => {
   const { docs } = useFirestore("images");
   const [deleteDocs, setDeteleDocs] = useState([]);
+  const [checkOut, setCheckOut] = useState(null);
 
   const handleSelect = async (id) => {
     setDeteleDocs([...deleteDocs, id]);
@@ -24,6 +25,12 @@ const Upload = ({ width }) => {
   const handleDeSelect = () => {
     setDeteleDocs([]);
   };
+  // const handleCheckOut = (e) => {
+  //   if(e.target.classList.contains('form-check')){
+  //     e.target.setClass
+  //   }
+    
+  // };
 
   return (
     <div className="upload-form">
@@ -51,9 +58,18 @@ const Upload = ({ width }) => {
               <div
                 key={card.id}
                 className="col-xl-4 col-lg-4 col-md-6 col-sm-12"
-                onClick={() => handleSelect(card.id)}
+                
               >
+                <div className="form-check">
+                  <input
+                    className="form-check-input" 
+                    type="checkbox"
+                    id="flexCheckDefault"
+                    onClick={() => handleSelect(card.id)}
+                  />
                 <Card url={card.url}></Card>
+                </div>
+                
               </div>
             ))}
           </div>

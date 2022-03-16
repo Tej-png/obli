@@ -6,6 +6,19 @@
     display: inline-block;
 }
 
+.navbar-toggler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-lines {
+    width: 2rem;
+    height: 2px;
+    background-color: white;
+    list-style: none;
+}
+
 .navbar {
     width: 15vw;
     height: 100vh;
@@ -103,14 +116,15 @@
 
     .navbar .brand {
         margin: 0 auto;
+        padding-top: 8px;
         font-size: 1.7em;
     }
 
     .container-fluid .navbar-toggler {
-        padding: 0;
+      
         position: absolute;
-        top: 10px;
-        right: 10px;
+        top: 36px;
+        right: 6px;
     }
 
     .navbar-collapse {
