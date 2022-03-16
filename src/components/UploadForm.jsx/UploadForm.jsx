@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-
 import ProgressBar from "../ProgressBar/ProgressBar";
 import './UploadForm.css'
 
@@ -21,6 +20,7 @@ const UploadForm = () => {
   };
   return (
     <form className="upload col-xl-12">
+    
       <div className="header">
         <h1>Welcome Sid!</h1>
         <h2>
@@ -28,13 +28,14 @@ const UploadForm = () => {
           porttitor blandit.
         </h2>
       </div>
-      <label>
-        <input type="file" onChange={handeUpload}></input>
+      <label >
+        <input className="upload-btn"  type="file" onChange={handeUpload}></input><span className>+</span>
       </label>
       <div className="output">
+       {image && <ProgressBar file={image} setFile={setImage} error={error}></ProgressBar>}
         {error && <div className="error">{error}</div>}
-        {image && <h1>{image.name}</h1>}
-        {image && <ProgressBar file={image} setFile={setImage} error={error}></ProgressBar>}
+        {image &&  <img src={URL.createObjectURL(image)} ></img>}
+       
       </div>
     </form>
   );

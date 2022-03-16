@@ -18,7 +18,7 @@
 }
 .social-contact{
   margin: 0 auto;
-  margin-top:250px
+  margin-top:200px
 }
 
 .home {
@@ -32,6 +32,8 @@
   display: flex;
  
 }
+
+
 
 /* .cards {
   width: 87vw;
@@ -67,11 +69,20 @@ i{
  
 }
 .upload-form {
-  width: 100vw;
-  height: 100vh;
+  display:flex;
+
+}
+.img-delete-btn {
+  width: 100px;
+  margin: 20px;
 }
 
 @media screen and (max-width: 1200px) {
+  .upload-form {
+    display:inline-block;
+    height: 100vh;
+  
+  }
   .contact-content {
    right: 20vw;
     margin: 100px auto;
@@ -84,6 +95,7 @@ i{
   }
   .gallery {
     display: flex;
+    height : 100%;
     flex-direction: column;
   }
   .contact {

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import {motion} from 'framer-motion'
 
 function NavBar({ width }) {
   return (
@@ -31,14 +32,14 @@ function NavBar({ width }) {
                     className="nav-btns"
                    
                   >
-                    <button className="btn nav-link nav-item">Home</button>
+                    <motion.button whileBefore transition={{duration:0.8}} className="btn nav-link nav-item">Home</motion.button>
                   </Link>
                   <Link to="/artworks" >
-                    <button className="btn nav-link nav-item">Artworks</button>
+                    <motion.button transition={{duration:0.8}} className="btn nav-link nav-item">Artworks</motion.button>
                   </Link>
 
                   <Link to="/contact" >
-                    <button className="btn nav-link nav-item">Contact</button>
+                    <motion.button transition={{duration:0.8}} className="btn nav-link nav-item">Contact</motion.button>
                   </Link>
                 </div>
               </div>

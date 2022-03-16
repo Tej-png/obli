@@ -18,13 +18,13 @@ function Contact({ width }) {
           <div className="social-contact">
             <a
               href="https://www.instagram.com/obli.png/"
-              class="fab fa-instagram icons"
+              className="fab fa-instagram icons"
             ></a>
             <a
               href="https://www.facebook.com/"
-              class="fab fa-facebook icons"
+              className="fab fa-facebook icons"
             ></a>
-            <a href="https://www.patreon.com/" class="fab fa-patreon icons"></a>
+            <a href="https://www.patreon.com/" className="fab fa-patreon icons"></a>
           </div>
         )}
       </div>

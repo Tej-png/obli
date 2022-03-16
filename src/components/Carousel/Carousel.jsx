@@ -34,7 +34,7 @@ function Carousel({width}) {
       <div className="carousel-inner">
         <div className="carousel-item active">
           
-          <img src="./assets/images/image0.png" className="carousel-img"></img>
+          <img src="https://firebasestorage.googleapis.com/v0/b/obli-710ad.appspot.com/o/three.jpg?alt=media&token=abbb681c-ea8c-4dc8-b3f1-9480b2fcbc7e" className="carousel-img"></img>
           {width<1200&& <div className="carousel-caption  ">
             <h5 className="hero-text">Check out my Artwork</h5>
             <Link to='/artworks'><button className="btn hero-btn nav-item">Artworks</button></Link> 
@@ -49,7 +49,7 @@ function Carousel({width}) {
           
         </div>
         <div className="carousel-item">
-          <img src="./assets/images/one.jpg" className="carousel-img"></img>
+          <img src="https://firebasestorage.googleapis.com/v0/b/obli-710ad.appspot.com/o/three.jpg?alt=media&token=abbb681c-ea8c-4dc8-b3f1-9480b2fcbc7e" className="carousel-img"></img>
           {width<1200&& <div className="carousel-caption  ">
             <h5 className="hero-text">Contact for more info</h5>
             <Link to='/contact'><button className="btn hero-btn nav-item">Contact</button></Link>
@@ -63,7 +63,7 @@ function Carousel({width}) {
           
         </div>
         <div className="carousel-item">
-          <img src="./assets/images/two.jpg" className="carousel-img"></img>
+          <img src="https://firebasestorage.googleapis.com/v0/b/obli-710ad.appspot.com/o/three.jpg?alt=media&token=abbb681c-ea8c-4dc8-b3f1-9480b2fcbc7e" className="carousel-img"></img>
           {width<1200 && <div className="carousel-caption ">
             <h5 className="hero-text">Check out my Artwork</h5>
             <Link to='/artworks'><button className="btn hero-btn nav-item">Artworks</button></Link> 
