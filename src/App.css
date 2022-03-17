@@ -98,6 +98,9 @@ i {
 }
 
 @media screen and (max-width: 1200px) {
+  :root {
+    background-color:#B61919;
+  }
   .upload-form {
     display: inline-block;
     

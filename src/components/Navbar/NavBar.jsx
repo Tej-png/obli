@@ -23,7 +23,7 @@ function NavBar({ width }) {
               aria-expanded="false"
               aria-label="Toggle navigation"
               onClick={() => setAnimating(!isAnimating)}
-              animate={{ position : 'absolute' ,top: isAnimating ? '40px' : '30px'}}
+              animate={{ position : 'absolute' ,top: isAnimating ? '25px' : '20px'}}
               
             >
               <motion.li
