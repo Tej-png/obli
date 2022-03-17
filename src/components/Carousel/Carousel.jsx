@@ -49,7 +49,7 @@ function Carousel({width}) {
           
         </div>
         <div className="carousel-item">
-          <img src="https://firebasestorage.googleapis.com/v0/b/obli-710ad.appspot.com/o/three.jpg?alt=media&token=abbb681c-ea8c-4dc8-b3f1-9480b2fcbc7e" className="carousel-img"></img>
+          <img src="https://firebasestorage.googleapis.com/v0/b/obli-710ad.appspot.com/o/puta.jpg?alt=media&token=8760b75a-5043-48b2-99ac-a5e2b03bfcd9" className="carousel-img"></img>
           {width<1200&& <div className="carousel-caption  ">
             <h5 className="hero-text">Contact for more info</h5>
             <Link to='/contact'><button className="btn hero-btn nav-item">Contact</button></Link>
@@ -63,7 +63,7 @@ function Carousel({width}) {
           
         </div>
         <div className="carousel-item">
-          <img src="https://firebasestorage.googleapis.com/v0/b/obli-710ad.appspot.com/o/three.jpg?alt=media&token=abbb681c-ea8c-4dc8-b3f1-9480b2fcbc7e" className="carousel-img"></img>
+          <img src="https://firebasestorage.googleapis.com/v0/b/obli-710ad.appspot.com/o/header.jpg?alt=media&token=41943e9f-0d78-4ef1-8c65-da0db8f84341" className="carousel-img"></img>
           {width<1200 && <div className="carousel-caption ">
             <h5 className="hero-text">Check out my Artwork</h5>
             <Link to='/artworks'><button className="btn hero-btn nav-item">Artworks</button></Link> 
