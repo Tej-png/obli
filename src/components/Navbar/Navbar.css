@@ -65,7 +65,7 @@
     height: 100%;
     background-color: white;
     z-index: -1;
-    transition: 0.3s ease-out;
+    transition: 0.2s ease-in;
 
 }
 
@@ -121,7 +121,7 @@
     }
 
     .container-fluid .navbar-toggler {
-      
+       position:relative;
         position: absolute;
         top: 36px;
         right: 6px;

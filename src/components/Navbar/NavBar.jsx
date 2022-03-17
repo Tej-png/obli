@@ -46,7 +46,7 @@ function NavBar({ width }) {
                   <Link to="/" className="nav-btns">
                     <motion.button
                       whileBefore
-                      transition={{ duration: 0.8 }}
+                      transition={{ duration: 0.2 }}
                       className="btn nav-link nav-item"
                     >
                       Home
@@ -54,7 +54,7 @@ function NavBar({ width }) {
                   </Link>
                   <Link to="/artworks">
                     <motion.button
-                      transition={{ duration: 0.8 }}
+                      transition={{ duration: 0.2 }}
                       className="btn nav-link nav-item"
                     >
                       Artworks
@@ -63,7 +63,7 @@ function NavBar({ width }) {
 
                   <Link to="/contact">
                     <motion.button
-                      transition={{ duration: 0.8 }}
+                      transition={{ duration: 0.2 }}
                       className="btn nav-link nav-item"
                     >
                       Contact
